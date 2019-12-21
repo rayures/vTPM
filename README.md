@@ -11,3 +11,7 @@ it has pauses after each major script action for debug purposes.
 --
 see releases for compiled installers
 https://github.com/rayures/vTPM/releases/
+
+
+special thanks to Stafan Berger for his great work with libtpms en swtpm
+https://github.com/stefanberger/
