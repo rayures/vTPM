@@ -55,6 +55,7 @@ tar -zcvf /home/vtpm/swtpm.tar.gz /home/vtpm/swtpm
 
 echo "done with swtpm"
 cd /home/vtpm
+ldconfig                                                #sometimes links are not cached correctly. ldconfig fixes this.
 read -rsp $'Press any key to continue...\n' -n1 key
 
 echo "finished"
