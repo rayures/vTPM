@@ -13,7 +13,7 @@ read -rsp $'Press any key to continue...\n' -n1 key
 
 # Install dependent packages 
 apt-get update -y
-apt-get -y install automake expect gnutls-bin libgnutls28-dev git gawk m4 socat fuse libfuse-dev checkinstall tpm-tools libgmp-dev libtool libglib2.0-dev libnspr4-dev libnss3-dev libssl-dev libtasn1-6-dev net-tools libseccomp-dev
+apt-get -y install automake expect gnutls-bin libgnutls28-dev git gawk m4 socat fuse libfuse-dev checkinstall tpm-tools libgmp-dev libtool libglib2.0-dev libnspr4-dev libnss3-dev libssl-dev libtasn1-6-dev net-tools libseccomp-dev python-setuptools
 
 read -rsp $'Press any key to continue...\n' -n1 key
 
